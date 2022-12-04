@@ -20,7 +20,7 @@ body {
 .menu {
     position: absolute;
     margin: 0;
-    display: block;
+    display: flex;
     flex-direction: column;
     padding: 0;
     padding-bottom: 20px;
