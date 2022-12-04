@@ -1,0 +1,43 @@
+body {
+    box-sizing: border-box;
+}
+.body {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:cadetblue;
+}
+.burger-menu {
+    position: relative;
+    
+}
+.nav {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.menu {
+    position: absolute;
+    margin: 0;
+    display: block;
+    flex-direction: column;
+    padding: 0;
+    padding-bottom: 20px;
+    row-gap: 85px;
+    background-color: lightgrey;
+    background-color: rgba(161, 167, 167, 0.4);
+}
+
+.disabled {
+    display: none;
+}
+
+.div-radio,
+.check-color {
+    display: flex;
+    flex-direction: column;
+}
+.red {
+    accent-color: red;
+}
